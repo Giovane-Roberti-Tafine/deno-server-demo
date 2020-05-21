@@ -1,0 +1,46 @@
+{
+    "restartable": "plsrestart",
+    "clear": true,
+    "timeout": 400,
+    "watchFor": [
+        "modify",
+        "access"
+    ],
+    "ignore": [
+        "super_duper_secret/*"
+    ],
+    "watch": [
+        "*.*"
+    ],
+    "extensions": [
+        "ts",
+        "js",
+        "json",
+        "ini"
+    ],
+    "events": {
+        "start": "echo \"Hello from a script\""
+    },
+    "permissions": [
+        "env"
+    ],
+    "executableMap": {
+        "ts": [
+            "deno"
+        ],
+        "js": [
+            "deno"
+        ]
+    },
+    "env": {
+        "SECRET_ENV_VARIABLE": "shh!"
+    },
+    "stdout": "inherit",
+    "stderr": "inherit",
+    "stdin": "inherit",
+    "signal": "SIGKILL",
+    "file": "server.ts",
+    "fileArgs": [],
+    "executableArgs": [],
+    "executableCmds": []
+}
