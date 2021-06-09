@@ -1,39 +1,36 @@
-## Dino Server Demo
+<h3 align="center">Dino Server Demo</h3>
 
-#### Api server em dino (Test) 🦕
+<h4 align="center">Api teste em dino :sauropod:</h4>
 
-:o: **Problem:**<br> Create an API with minimal CRUD.
+:o: **Problema:**<br> Criar uma API com CRUD mínimo.
 
-:heavy_check_mark: **Solution:**<br> Documentation and community searches.
+:heavy_check_mark: **Solução:**<br> Documentação e pesquisas na comunidade.
 
-:dart: **Impact:**<br> Learning about Technology.
+:dart: **Impacto:**<br> Aprendizado sobre a tecnologia
 
-:bicyclist: **Run:** Having installed Deno in your environment. <br>
+:bicyclist: **Corra:** Tendo instalado o Deno em seu ambiente. <br>
 
-> This application was created in the version. `1.0.1` <br> To know your version type `deno` in your terminal.
+> Esta aplicação foi criado na versão. `1.0.1` <br> Para saber a versão, digite `deno` no terminal.
 
--   Clone this repository
--   To run:
+-   Clone este repositório
+-   Corra:
 
 ```
 deno run --allow-net server.ts
 ```
 
-or<br>
+ou<br>
 
-If you have the library in your environment [drun](https://github.com/MarcHanin/drun 'drun') execute:
+Se você tem a biblioteca em seu ambiente [drun](https://github.com/MarcHanin/drun 'drun') execute:
 
 ```
 drun
 ```
 
-This library will play the role of reloading your app on any changes <br> In the repository there is a document
-(drun.json) that is configured to run the app on top of the drun;
+Esta biblioteca desempenhará o papel de recarregar seu aplicativo em qualquer alteração <br> No repositório há um documento
+(drun.json) que está configurado para executar o aplicativo em cima do drun;
 
-🛸 **Technologies:**
+🛸 **Tecnologias:**
 
 -   Deno
 
-⚙️**Dependencies:**
-
--   oak@v4.0.0
